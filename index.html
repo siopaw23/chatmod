@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <style>
+    /* General reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url("https://picsum.photos/1600/500?grayscale") no-repeat center center/cover;
+      color: white;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+    /* Navbar */
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff9800;
+    }
+
+    /* Content Section */
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .content img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 10px 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Start Chatting on These Platforms</h1>
+  </div>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="https://ichatcenter.com/">USA</a>
+    <a href="https://chatadminboard.com/">Australia</a>
+    <a href="https://mychatwork.com/">Canada</a>
+    <a href="https://mychatadmin.com/">UK</a>
+    <a href="https://messagemastersite.com/">New Zealand</a>
+    <a href="https://msgdashboard.com/">Ireland</a>
+    <a href="https://msgadmin.com/">South Africa</a>
+  </nav>
+
+  <!-- Content -->
+  <div class="content">
+    <h2>Connect Anywhere</h2>
+    <p>Choose your country and start chatting with people across the globe. The platform works seamlessly on desktop, tablet, and mobile devices.</p>
+
+    <img src="https://picsum.photos/800/400" alt="Chatting illustration">
+  </div>
+</body>
+</html>
